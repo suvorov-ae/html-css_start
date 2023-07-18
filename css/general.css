@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  background-image: url(/img/1.png),url(/img/2.png);
+  background-position:top, bottom;
+  background-repeat: no-repeat;
+  background-color: #001821;
+  color: #fff;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  font-style: normal;
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}

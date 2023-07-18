@@ -1,0 +1,22 @@
+.header {
+  height: 123.365px;
+  position: relative;
+  margin-bottom: 70px;
+}
+
+.header .logo {
+  position: absolute;
+  top: 29px;
+}
+
+.header .menu {
+  position: absolute;
+  top: 40px;
+  left: 165px;
+}
+
+.header .contacts {
+  position: absolute;
+  right: 0px;
+  top: 30px;
+}

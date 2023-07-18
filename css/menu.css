@@ -1,0 +1,13 @@
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+
+.menu__link {
+  font-size: 14px;
+}
+
+.menu__link:hover {
+  color: #DA0100;
+}
