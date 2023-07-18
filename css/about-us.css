@@ -1,0 +1,33 @@
+.about-us {
+  position: relative;
+  height: 608px;
+  margin-bottom: 16px;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+ }
+ 
+ .about-us__back-image{
+   display: block;
+ }
+ .about-us__card {
+   background-image: url(/img/about-us/mountains.png);
+   display: flex;
+   flex-flow: column wrap;
+   max-width: 785px;
+   line-height: 27px;
+   font-size: 16px;
+   color: #060606;
+   padding: 81px 202px 66px 81px;
+   position: absolute;
+   top: 98px;
+   left: 354px;
+ 
+ }
+ 
+ .about-us__title {
+   margin-bottom: 50px;
+   font-size: 36px;
+ }
+ 
+ .about-us__desc {
+   margin-bottom: 39px;
+ }
