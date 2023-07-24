@@ -1,9 +1,8 @@
 .tours__title {
   font-size: 36px;
   font-weight: 700;
-  margin-bottom: 50px;
+  margin-bottom: 55px;
   padding-left: 3px;
-  padding-top: 2px;
 }
 
 .tours__title-image {
@@ -12,16 +11,17 @@
 
 .tours__content {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
-  margin-bottom: 127px;
+  margin-bottom: 130px;
   gap: 10px;
 }
 
 .placecard {
   background-color: #FFF;
   color: #303030;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   vertical-align: top;
   max-width: 362px;
   border-radius: 5px;
@@ -29,11 +29,11 @@
 
 .placecard__title {
   font-size: 24px;
-  margin-bottom: 21px;
+  margin-bottom: 24px;
 }
 
 .placecard__content {
-  padding: 33px 16px 26px 22px;
+  padding: 35px 16px 26px 22px;
 }
 
 .placecard__image {
@@ -43,7 +43,7 @@
 .placecard__desc {
   font-size: 14px;
   margin-bottom: 25px;
-  line-height: 1.42;
+  line-height: 1.47;
 }
 
 .icon-list {

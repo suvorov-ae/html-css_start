@@ -3,15 +3,14 @@
 }
 
 .news__title {
-  margin-bottom: 50px;
+  margin-bottom: 55px;
   font-size: 36px;
 }
 
 .news__content {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: norap;
-  align-content: space-around;
+  justify-content: space-between;
+  flex-wrap: nowrap;
   gap: 15px;
   margin-bottom: 52px;
 }
@@ -20,8 +19,7 @@
   display: flex;
   flex-direction: column;
   justify-content: end;
-  padding-left: 31px;
-  padding-bottom: 46px;
+  padding:35px;
   height: 394px;
   border-radius: 5px;
   flex-wrap: wrap;
@@ -44,7 +42,7 @@
 .newscard__title{
   line-height: 36px;
   font-size: 24px;
-  margin-bottom: 2px;
+  margin-bottom: 4px;
 }
 
 .newscard__desc{
