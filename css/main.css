@@ -153,16 +153,14 @@ a:any-link {
 
 /* SECTIONS */
 
-/* TOURS */
-
-
-
 .section__title {
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 55px;
   padding-left: 3px;
 }
+
+/* TOURS */
 
 .tours__title-image{
   vertical-align: middle;
@@ -206,6 +204,8 @@ a:any-link {
   line-height: 1.47;
 }
 
+/* ICON */
+
 .icon-tours__list {
   padding-left: 6px;
   margin-bottom: 25px;
@@ -229,56 +229,41 @@ a:any-link {
 
 /* NEWS */
 
-.news {
-  margin-bottom: 147px;
-}
-
-.news__title {
-  margin-bottom: 55px;
-  font-size: 36px;
-}
-
-.news__content {
+.news__list {
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
+  gap: 10px;
   margin-bottom: 52px;
 }
 
-.newscard {
+.news__item {
+  position: relative;
+}
+
+.item-news__content{
   display: flex;
   flex-direction: column;
-  justify-content: end;
-  padding:0 44px 20px 30px;
-  height: 394px;
-  border-radius: 5px;
-  flex-wrap: wrap;
-  flex-basis: 557px;
+  position: absolute;
+  margin: 26px 30px;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
-.newscard--plain {
-  background-image: url(/img/index/news_1.png);
-}
-
-.newscard--surf {
-  background-image: url(/img/index/news_2.png);
-}
-
-.newscard__date{
+.item-news__data{
   font-size: 14px;
   margin-bottom: 15px;
 }
 
-.newscard__title{
-  line-height: 36px;
+.item-news__title {
   font-size: 24px;
-  margin-bottom: 1px;
+  line-height: 36px;
 }
 
-.newscard__desc{
-  font-size: 16px;
+.item-news__desc{
   line-height: 24px;
-  flex-basis: 50px;
+  flex-basis: 45px;
 }
 
 /* ABOUT-US */
