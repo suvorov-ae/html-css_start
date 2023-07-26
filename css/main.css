@@ -62,13 +62,14 @@ a:any-link {
   display: flex;
   justify-content: space-between;
   padding-top: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 120px;
 }
 
 .header__col {
   display: inline-flex;
   vertical-align: middle;
   justify-content: space-between;
+  width: 37.5%;
 }
 
 .header__col--right {
@@ -79,7 +80,7 @@ a:any-link {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 270px;
+  gap: 54px;
   height: 100%;
   font-size: 14px;
 }
@@ -133,7 +134,7 @@ a:any-link {
   border-radius: 36px;
 }
 
-.btn--placecard {
+.item-tours__btn {
   width: 135px;
   padding: 18px 29px 18px 30px;
   background-color: #FFF;
@@ -141,7 +142,7 @@ a:any-link {
   border: 1px solid #F5170E;
 }
 
-.btn--placecard:hover {
+.item-tours__btn:hover {
   background-color: #F5170E;
   color: #FFF;
 }
@@ -154,70 +155,73 @@ a:any-link {
 
 /* TOURS */
 
-.tours__title {
+
+
+.section__title {
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 55px;
   padding-left: 3px;
 }
 
-.tours__title-image {
+.tours__title-image{
   vertical-align: middle;
 }
 
-.tours__content {
+
+.tours__list {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   margin-bottom: 130px;
   gap: 10px;
 }
 
-.placecard {
+.tours__item {
   background-color: #FFF;
   color: #303030;
-  display: flex;
-  flex-direction: column;
-  vertical-align: top;
   max-width: 362px;
   border-radius: 5px;
 }
 
-.placecard__title {
+.item-tours__image{
+  display:block;
+}
+
+.item-tours__title {
   font-size: 24px;
   margin-bottom: 24px;
 }
 
-.placecard__content {
-  padding: 35px 16px 26px 22px;
+.item-tours__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 36px 22px 24px;
 }
 
-.placecard__image {
-  display: block;
-}
-
-.placecard__desc {
+.item-tours__desc {
   font-size: 14px;
   margin-bottom: 25px;
   line-height: 1.47;
 }
 
-.icon-list {
+.icon-tours__list {
   padding-left: 6px;
   margin-bottom: 25px;
 }
 
-.icon-list__item {
+.icon-tours__item {
   display: inline-block;
   margin-right: 28px;
 }
 
-.icon__image {
+.icon-tours__image {
   display: inline;
   vertical-align: middle;
 }
 
-.icon__text {
+.icon-tours__text {
   vertical-align: middle;
   font-size: 16px;
   margin-inline-start: 5px;
