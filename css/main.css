@@ -11,12 +11,12 @@
 .wrapper__index {
   background: url(/img/index/bg_1.png) center top no-repeat,
     url(/img/index/bg_2.png) right bottom 110px no-repeat;
+  background-color: #001821;
+  color: #fff;
 }
 
 body {
   font-family: 'Open Sans', Helvetica, sans-serif;
-  background-color: #001821;
-  color: #fff;
 }
 
 ul li {
@@ -289,9 +289,9 @@ a:any-link {
   flex-basis: 45px;
 }
 
-/* BREADCRUMBS */
+/* pager */
 
-.breadcrumbs {
+.pager {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
@@ -300,18 +300,18 @@ a:any-link {
   margin-bottom: 145px;
 }
 
-.breadcrumbs__list {
+.pager__list {
   display: flex;
   justify-content: space-around;
   gap: 2px;
 }
 
-.breadcrumbs__item--active .breadcrumbs__link {
+.pager__item--active .pager__link {
   background-color: #FFF;
   color: #F5170E;
 }
 
-.breadcrumbs__link {
+.pager__link {
   font-weight: 700;
   display: block;
   text-align: center;
@@ -321,7 +321,7 @@ a:any-link {
   border-radius: 50%;
 }
 
-.breadcrumbs__link:hover {
+.pager__link:hover {
   background-color: #FFF;
   color: #F5170E;
 }
@@ -402,12 +402,15 @@ a:any-link {
 
 /* FOOTER */
 
+.footer {
+  padding-bottom: 65px;
+}
+
 .footer__content {
   border-top: solid 1px rgba(255, 255, 255, 0.1);
   display: flex;
   justify-content: space-between;
   padding-top: 47px;
-  margin-bottom: 65px;
 }
 
 
@@ -481,3 +484,12 @@ a:any-link {
 .social__link--inst:hover {
   background-image: url(/img/social/inst-hover.png);
 }
+
+/* SERVICES */
+
+.wrapper__services {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  background-color: #FFF;
+  color: #000;
+}
+
