@@ -36,7 +36,7 @@ h6 {
   padding: 0;
 }
 
-p{
+p {
   margin: 0;
 }
 
@@ -147,8 +147,8 @@ a:any-link {
   color: #FFF;
 }
 
-.btn--about-us {
-  padding: 15px 45px;
+.about__btn {
+  padding: 20px 40px;
 }
 
 /* SECTIONS */
@@ -162,7 +162,7 @@ a:any-link {
 
 /* TOURS */
 
-.tours__title-image{
+.tours__title-image {
   vertical-align: middle;
 }
 
@@ -182,8 +182,8 @@ a:any-link {
   border-radius: 5px;
 }
 
-.item-tours__image{
-  display:block;
+.item-tours__image {
+  display: block;
 }
 
 .item-tours__title {
@@ -233,7 +233,7 @@ a:any-link {
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
-  gap: 10px;
+  gap: 25px;
   margin-bottom: 52px;
 }
 
@@ -241,7 +241,7 @@ a:any-link {
   position: relative;
 }
 
-.item-news__content{
+.item-news__content {
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -251,7 +251,7 @@ a:any-link {
   right: 0;
 }
 
-.item-news__data{
+.item-news__data {
   font-size: 14px;
   margin-bottom: 15px;
 }
@@ -261,82 +261,121 @@ a:any-link {
   line-height: 36px;
 }
 
-.item-news__desc{
+.item-news__desc {
   line-height: 24px;
   flex-basis: 45px;
 }
-
-/* ABOUT-US */
-
-.about-us {
-  position: relative;
-  height: 608px;
-  margin-bottom: 16px;
-  border-bottom: solid 1px rgba(255, 255, 255, 0.1);
- }
- 
- .about-us__back-image{
-   display: block;
- }
- .about-us__card {
-   background-image: url(/img/index/about-us_2.png);
-   display: flex;
-   flex-flow: column wrap;
-   max-width: 785px;
-   line-height: 27px;
-   font-size: 16px;
-   color: #060606;
-   padding: 81px 202px 66px 81px;
-   position: absolute;
-   top: 98px;
-   left: 354px;
- }
- 
- .about-us__title {
-   margin-bottom: 50px;
-   font-size: 36px;
- }
- 
- .about-us__desc {
-   margin-bottom: 39px;
- }
 
 /* BREADCRUMBS */
 
 .breadcrumbs {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding-left: 382px;
-  padding-right: 372px;
+  gap: 25px;
+  margin-bottom: 145px;
 }
 
-.breadcrumbs__title {
-  vertical-align: middle;
-}
-
-.breadcrumbs__menu {
+.breadcrumbs__list {
   display: flex;
   justify-content: space-around;
-  align-items: center;
   gap: 2px;
 }
 
+.breadcrumbs__item--active .breadcrumbs__link {
+  background-color: #FFF;
+  color: #F5170E;
+}
+
 .breadcrumbs__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-weight: 700;
+  display: block;
+  text-align: center;
+  line-height: 32px;
   width: 32px;
   height: 32px;
   border-radius: 50%;
 }
 
-.breadcrumbs__link--active,
 .breadcrumbs__link:hover {
   background-color: #FFF;
   color: #F5170E;
 }
+
+/* ABOUT */
+
+.about{
+  display: inline-flex;
+}
+
+.about__front {
+  position: relative;
+  display: block;
+  margin-left: -137px;
+  margin-top: 95px;
+}
+
+.about__behind{
+  height: fit-content;
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 66px 81px;
+  color: #060606;
+}
+
+.about__title{
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.about__desc{
+  line-height: 27px;
+  margin-bottom: 43px;
+  flex-basis: 135px;
+}
+
+.about-us {
+  position: relative;
+  height: 608px;
+  margin-bottom: 16px;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+}
+
+.about-us__back-image {
+  display: block;
+}
+
+.about-us__card {
+  background-image: url(/img/index/about-us_2.png);
+  display: flex;
+  flex-flow: column wrap;
+  max-width: 785px;
+  line-height: 27px;
+  font-size: 16px;
+  color: #060606;
+  padding: 81px 202px 66px 81px;
+  position: absolute;
+  top: 98px;
+  left: 354px;
+}
+
+.about-us__title {
+  margin-bottom: 50px;
+  font-size: 36px;
+}
+
+.about-us__desc {
+  margin-bottom: 39px;
+}
+
 
 /* SOCIALS */
 
@@ -393,7 +432,7 @@ a:any-link {
 
 /* FOOTER */
 
-.footer{
+.footer {
   position: relative;
   height: 146px;
 }
