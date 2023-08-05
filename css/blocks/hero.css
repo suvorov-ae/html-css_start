@@ -1,0 +1,44 @@
+.hero__content {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-bottom: 250px;
+  gap: 24px;
+}
+
+.hero__title {
+  display: flex;
+  align-items: end;
+  font-size: 72px;
+  font-weight: bold;
+  width: 50%;
+  flex-basis: 287px;
+}
+
+.hero__subtitle {
+  font-size: 18px;
+}
+
+
+@media (max-width: 1040px) {
+  .hero__title {
+    font-size: 68px;
+    width: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero__title {
+    flex-basis: 250px;
+    font-size: 66px;
+    width: 475px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero__title {
+    flex-basis: 200px;
+    font-size: 56px;
+    width: 100%;
+  }
+}

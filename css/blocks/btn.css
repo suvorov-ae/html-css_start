@@ -1,0 +1,55 @@
+.btn {
+  display: block;
+  overflow: hidden;
+  width: 168px;
+  padding: 18px 40px;
+  border-radius: 35px;
+  background-color: #F5170E;
+  color: #FFF;
+}
+
+.btn__link{
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: normal;
+}
+
+.btn--width--short {
+  width: 135px;
+  padding: 16px 30px;
+}
+
+.btn--width--long {
+  width: 135px;
+  padding: 16px 58px;
+ 
+}
+
+.btn--color--white {
+  background-color: #FFF;
+  color: #F5170E;
+  border: 1px solid #F5170E;
+}
+
+.btn--color--white:hover {
+  border: 1px solid #F5170E;
+  background-color: #F5170E;
+  color: #FFF;
+}
+
+
+
+.btn--color--red {
+  border: 1px solid #F5170E;
+  background-color: #F5170E;
+  color: #FFF;
+}
+
+.btn__about {
+  padding: 20px 40px;
+}
+
+.btn__welcome {
+  padding: 18px 58px;
+}

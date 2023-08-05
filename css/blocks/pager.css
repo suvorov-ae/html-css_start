@@ -1,0 +1,48 @@
+.pager {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+@media (max-width: 475px) {
+  .pager {
+    flex-direction: column;
+    gap: 25px;
+  }
+}
+.pager__list {
+  display: flex;
+  justify-content: space-around;
+  gap: 2px;
+}
+
+.pager__item--active .pager__link {
+  background-color: #FFF;
+  color: #F5170E;
+}
+
+.pager__item--bg--white .pager__link {
+  background-color: #F5170E;
+  color: #FFF;
+}
+
+.pager__link {
+  font-weight: 700;
+  display: block;
+  text-align: center;
+  line-height: 32px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.pager__link:hover {
+  background-color: #FFF;
+  color: #F5170E;
+}
+
+.pager--bg--white .pager__link:hover {
+  background-color: #F5170E;
+  color: #FFF;
+}
