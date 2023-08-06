@@ -2,13 +2,14 @@
   display: block;
   overflow: hidden;
   width: 168px;
-  padding: 18px 40px;
+  padding: 17px 40px;
   border-radius: 35px;
   background-color: #F5170E;
   color: #FFF;
+  border: 1px solid #F5170E;
 }
 
-.btn__link{
+.btn__link {
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
@@ -18,12 +19,6 @@
 .btn--width--short {
   width: 135px;
   padding: 16px 30px;
-}
-
-.btn--width--long {
-  width: 135px;
-  padding: 16px 58px;
- 
 }
 
 .btn--color--white {
@@ -38,13 +33,18 @@
   color: #FFF;
 }
 
-
-
 .btn--color--red {
   border: 1px solid #F5170E;
   background-color: #F5170E;
   color: #FFF;
 }
+
+.btn--color--red:hover {
+  background-color: #DA0100;
+  box-shadow: 0px 2px 4px 0px rgba(218, 1, 0, 0.30);
+  color: #FFF;
+}
+
 
 .btn__about {
   padding: 20px 40px;

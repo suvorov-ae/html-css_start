@@ -1,7 +1,7 @@
 .tours__title {
   font-size: 36px;
   font-weight: bold;
-  margin-bottom: 44px;
+  margin-bottom: 47px;
   padding-left: 3px;
 }
 
@@ -12,8 +12,9 @@
 
 .tours__list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 125px;
+  margin-bottom: 127px;
 }
 
 .tours__item, .tour{

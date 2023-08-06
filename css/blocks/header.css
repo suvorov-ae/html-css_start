@@ -43,19 +43,13 @@
     gap: 12px;
   }
 
-  .header .contacts__phone {
-    font-size: 22px;
-}
-
-
-  .header__col {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 50%;
+  .header .contacts {
+    justify-content: space-between;
   }
 
-  .header__logo {
-    margin-left: 0px;
+  .header__col {
+    flex-wrap:wrap;
+    flex-basis: 50%;
   }
 
 

@@ -2,8 +2,8 @@
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  margin-bottom: 250px;
-  gap: 24px;
+  margin-bottom: 246px;
+  /* gap: 24px; */
 }
 
 .hero__title {
@@ -13,10 +13,12 @@
   font-weight: bold;
   width: 50%;
   flex-basis: 287px;
+  margin-bottom: 24px;
 }
 
 .hero__subtitle {
   font-size: 18px;
+  margin-bottom: 26px;
 }
 
 

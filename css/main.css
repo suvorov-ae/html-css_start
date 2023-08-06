@@ -21,97 +21,12 @@
 @import url(/css/blocks/pager.css);
 /* ABOUT */
 @import url(/css/blocks/about.css);
-
 /* FOOTER */
-
-.footer {
-  padding-bottom: 65px;
-  justify-self: flex-end;
-}
-
-.footer .container {
-  border-top: solid 1px rgba(255, 255, 255, 0.1);
-  display: flex;
-  justify-content: space-between;
-  padding-top: 47px;
-}
-
-.footer__col {
-  flex: 1;
-  display:flex;
-}
-
-.footer__col--right {
-  justify-content: flex-end;
-}
-
-.footer .menu{
-  margin-left: 80px;
-}
-
-.footer .social{
-  margin-right: 35px;
-}
-
-
-.footer__text {
-  font-size: 11px;
-  font-style: normal;
-  line-height: 1.42;
-  margin-bottom: 7px;
-}
-
-
+@import url(/css/blocks/footer.css);
 
 /* SOCIALS */
+@import url(/css/blocks/social.css);
 
-.social {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: center;
-  gap: 10px;
-}
-
-.social__link {
-  display: block;
-  border-radius: 50%;
-  width: 36px;
-  height: 36px;
-}
-
-.social__link--tg {
-  background-image: url(/img/social/tg.png);
-}
-
-.social__link--vk {
-  background-image: url(/img/social/vk.png);
-}
-
-.social__link--fb {
-  background-image: url(/img/social/fb.png);
-}
-
-.social__link--inst {
-  background-image: url(/img/social/inst.png);
-}
-
-
-.social__link--tg:hover {
-  background-image: url(/img/social/tg-hover.png);
-}
-
-.social__link--vk:hover {
-  background-image: url(/img/social/vk-hover.png);
-}
-
-.social__link--fb:hover {
-  background-image: url(/img/social/fb-hover.png);
-}
-
-.social__link--inst:hover {
-  background-image: url(/img/social/inst-hover.png);
-}
 
 /* WELCOME */
 

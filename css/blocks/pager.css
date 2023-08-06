@@ -7,8 +7,8 @@
 
 @media (max-width: 475px) {
   .pager {
-    flex-direction: column;
-    gap: 25px;
+    flex-wrap: wrap;
+    align-items: center;
   }
 }
 .pager__list {
