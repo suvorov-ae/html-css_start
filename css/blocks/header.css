@@ -49,10 +49,7 @@
 
   .header__col {
     flex-wrap:wrap;
-    flex-basis: 50%;
   }
-
-
   .header__col--right {
     flex-direction: row;
   }

@@ -1,0 +1,40 @@
+.headline {
+  background: url(/img/services/headline.png) center top no-repeat;
+  color: #FFF;
+  margin-bottom: 98px;
+}
+
+.headline .header {
+  margin-bottom: 84px;
+}
+
+.headline .header .menu{
+  margin-left: 66px;
+}
+
+.headline__title {
+  font-size: 72px;
+  font-weight: 700;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 640px) {
+  .headline .header .menu {
+    margin-left: 40px;
+  }
+
+  .headline .header .menu__list {
+    gap: 20px;
+  }
+  .header .contacts__phone {
+    font-size: 18px;
+}
+}
+
+@media (max-width: 475px) {
+  .headline .header  {
+    margin-left: 0px;
+    justify-content: flex-start;
+    flex-basis: 50px;
+  }
+}

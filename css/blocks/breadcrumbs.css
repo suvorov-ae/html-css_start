@@ -1,0 +1,17 @@
+.breadcrumbs__list {
+  display: inline-flex;
+  line-height:normal;
+  margin-bottom: 23px;
+  color: #9A9A9A;
+  font-size: 14px;
+  gap: 3px;
+}
+
+.breadcrumbs__item {
+  text-decoration: underline;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link{
+  font-weight: bold;
+  cursor:default;
+}

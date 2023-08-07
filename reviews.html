@@ -16,8 +16,8 @@
       <div class="container">
         <header class="header">
           <div class="header__col">
-            <a href="./" class="logo">
-              <img src="/img/reviews/logo.png" alt="Air Asia logo" class="logo__image">
+            <a href="./" class="header__logo logo">
+              <img src="/img/services/logo.png" alt="Air Asia logo" class="logo__image">
             </a>
             <nav class="menu">
               <ul class="menu__list">
@@ -25,11 +25,18 @@
                 <li class="menu__item"><a href="/services.html" class="menu__link">Услуги</a></li>
                 <li class="menu__item"><a href="/reviews.html" class="menu__link">Отзывы</a></li>
               </ul>
+            </nav>
           </div>
           <div class="header__col header__col--right">
             <address class="contacts">
               <a href="tel:88007003030" class="contacts__phone">8 800 700 30 30</a>
-              <div class="contacts__dropdown-title">График работы</div>
+              <div class="contacts__dropdown dropdown">
+                <a class="dropdown__title">График работы</a>
+                <ul class="dropdown__content">
+                  <li>пн-вс: <time datetime="09:00">09:00</time> - <time datetime="20:00">20:00</time></li>
+                  <li>Обед: <time datetime="14:00">14:00</time> - <time datetime="14:30">14:30</time></li>
+                </ul>
+              </div>
             </address>
           </div>
         </header>
@@ -37,28 +44,50 @@
         <nav class="breadcrumbs">
           <ul class="breadcrumbs__list">
             <li class="breadcrumbs__item"><a href="/index.html" class="breadcrumbs__link">Главная</a></li>
+            <li class="breadcrumbs__item-separator">/</li>
             <li class="breadcrumbs__item breadcrumbs__item--active"><a href="#" class="breadcrumbs__link">Отзывы</a>
             </li>
           </ul>
         </nav>
       </div>
     </section>
-
     <main class="main">
       <section class="reviews">
         <div class="container">
           <ul class="reviews__list">
-            <li class="reviews__item item-reviews">
-              <div class="item-reviews__head">
-                <img src="/img/reviews/avatar.png" alt="avatar" class="item-reviews__avatar">
-                <a href="" class="item-reviews__username">Екатерина Жмых</a>
-                <ul class="review__tags">
-                  <li class="tag">Бла</li>
-                </ul>
+            <li class="reviews__item review">
+              <div class="review__head">
+                <img src="/img/reviews/avatar.png" alt="avatar" class="review__avatar">
+                <div class="review__head-info">
+                  <a href="" class="review__username">Екатерина Жмых</a>
+                  <div class="review__tag tag">
+                    Тур на остров обезьян
+                  </div>
+                </div>
               </div>
-              <div class="item-reviews__main">
-                <h4 class="item-reviews__title">Очень понравился тур на остров обезьян</h4>
-                <div class="item-reviews__desc">
+              <div class="review__main">
+                <h4 class="review__title">Очень понравился тур на остров обезьян</h4>
+                <div class="review__desc">
+                  <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более
+                    менее ос При создании генератора мы использовали небезизвестный
+                    .</p>
+                </div>
+                <time class="review__date">Ноябрь 2019</time>
+              </div>
+            </li>
+            <li class="reviews__item review">
+              <div class="review__head">
+                <img src="/img/reviews/avatar.png" alt="avatar" class="review__avatar">
+                <div class="review__head-info">
+                  <a href="" class="review__username">Екатерина Жмых</a>
+                  <div class="review__tag tag">
+                    <span class="tag__text">Тур на остров обезьян.</span>
+                  </div>
+                </div>
+              </div>
+              <div class="review__main">
+                <h4 class="review__title">Очень понравился тур на остров обезьян</h4>
+                <div class="review__desc">
                   <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более
                     менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных
                     выступлений в домашних условиях. При создании генератора мы использовали небезизвестный
@@ -66,13 +95,56 @@
                     в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового
                     восприятия.</p>
                 </div>
-                <time class="item-reviews__date">Ноябрь 2019</time>
+                <time class="review__date">Ноябрь 2019</time>
+              </div>
+            </li>
+            <li class="reviews__item review">
+              <div class="review__head">
+                <img src="/img/reviews/avatar.png" alt="avatar" class="review__avatar">
+                <div class="review__head-info">
+                  <a href="" class="review__username">Екатерина Жмых</a>
+                  <div class="review__tag tag">
+                    <span class="tag__text">Тур на остров обезьян.</span>
+                  </div>
+                </div>
+              </div>
+              <div class="review__main">
+                <h4 class="review__title">Очень понравился тур на остров обезьян</h4>
+                <div class="review__desc">
+                  <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более
+                    менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных
+                    выступлений в домашних условиях. При создании генератора мы использовали небезизвестный
+                    универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений
+                    в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового
+                    восприятия.</p>
+                </div>
+                <time class="review__date">Ноябрь 2019</time>
+              </div>
+            </li>
+            <li class="reviews__item review">
+              <div class="review__head">
+                <img src="/img/reviews/avatar.png" alt="avatar" class="review__avatar">
+                <div class="review__head-info">
+                  <a href="" class="review__username">Екатерина Жмых</a>
+                  <div class="review__tag tag">
+                    <span class="tag__text">Тур на остров обезьян.</span>
+                  </div>
+                </div>
+              </div>
+              <div class="review__main">
+                <h4 class="review__title">Очень понравился тур на остров обезьян</h4>
+                <div class="review__desc">
+                  <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более
+                    менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных
+                    выступлений в домашних условиях. При создании генератора мы использовали небезизвестный
+                    универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений
+                    в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового
+                    восприятия.</p>
+                </div>
+                <time class="review__date">Ноябрь 2019</time>
               </div>
             </li>
           </ul>
-
-
-
           <nav class="pager pager--bg--white">
             <div class="pager__title">Страница 1 из 7</div>
             <ul class="pager__list">
@@ -90,6 +162,61 @@
       </section>
 
       <!-- WIDELINE -->
+      <section class="separator">
+        <div class="separator__content">
+          <div class="separtor__title">
+            <h2>Подберем тур по вышим пожеланиям</h2>
+          </div>
+          <img class="separator__image" src="/img/reviews/couple.png" alt="couple">
+        </div>
+      </section>
+
+      <section class="form">
+        <div class="container">
+          <h2 class="form__title">
+            Оставьте отзыв
+          </h2>
+          <form action="#" class="form__content" method="post">
+            <div class="form__row">
+              <input class="form__input" type="text" placeholder="Имя и Фамилия" value="Екатерина Жмых">
+              <input class="form__input" type="text" placeholder="Ссылка на профиль в VK">
+            </div>
+            <div class="form__row">
+              <textarea class="form__textarea" name="" id="" placeholder="Напишите свой честный отзыв ;)"></textarea>
+            </div>
+
+
+            <ul class="form__labels">
+              <li class="labels__item item-labels">
+                <input class="item-labels__input" type="checkbox">
+                <div class="item-labels__tag tag">Остров обязьян</div>
+              </li>
+
+
+            </ul>
+            <label class="tag__label" for="monkeys_island">
+              <input class="tag__input" id="monkeys_island" type="checkbox">
+              <div class="tag">Остров обязьян</div>
+            </label>
+            <label class="tag__label">
+              <input class="tag__input" type="checkbox">
+              <div class="tag">Остров обязьян</div>
+            </label>
+            
+<div class="form__buttons">
+              <button class="btn btn--color--gray" btn="reset">
+                Очистить
+              </button>
+              <button class="btn btn--color--red" type="submit">
+                Отправить
+              </button>
+</div>
+
+
+          </form>
+        </div>
+      </section>
+
 
     </main>
     <footer class="footer footer--color--dark">
