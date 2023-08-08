@@ -1,0 +1,29 @@
+.separator {
+  height: 363px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  background: url(/img/reviews/Rectangle.png) no-repeat;
+}
+
+.separator__content {
+  max-width: 1140px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center
+}
+
+.separtor__title h2 {
+  color: #FFF;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.separator__image {
+  margin-top: auto;
+  display: block;
+  margin-right: 30px;
+}

@@ -11,37 +11,38 @@
   border-radius: 50%;
   width: 36px;
   height: 36px;
+  background-image: url(/img/social/css_sprites.png);
 }
 
 .social__link--tg {
-  background-image: url(/img/social/tg.png);
+  background-position: -122px -10px;
+}
+
+.social__link--tg:hover {
+  background-position: -122px -66px;
 }
 
 .social__link--vk {
-  background-image: url(/img/social/vk.png);
-}
-
-.social__link--fb {
-  background-image: url(/img/social/fb.png);
-}
-
-.social__link--inst {
-  background-image: url(/img/social/inst.png);
-}
-
-
-.social__link--tg:hover {
-  background-image: url(/img/social/tg-hover.png);
+  background-position: -10px -122px;
 }
 
 .social__link--vk:hover {
-  background-image: url(/img/social/vk-hover.png);
+  background-position: -66px -122px;
+}
+
+.social__link--fb {
+  background-position: -10px -10px;
 }
 
 .social__link--fb:hover {
-  background-image: url(/img/social/fb-hover.png);
+  background-position: -66px -10px;
 }
 
+.social__link--inst {
+  background-position: -10px -66px;
+}
+
+
 .social__link--inst:hover {
-  background-image: url(/img/social/inst-hover.png);
+  background-position: -66px -66px;
 }
