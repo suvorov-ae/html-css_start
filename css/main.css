@@ -12,40 +12,40 @@
 /* HERO */
 @import url(./blocks/hero.css);
 /* BTN */
-@import url(/css/blocks/btn.css);
+@import url(./blocks/btn.css);
 /* TOURS */
-@import url(/css/blocks/tours.css);
+@import url(./blocks/tours.css);
 /* NEWS */
-@import url(/css/blocks/news.css);
+@import url(./blocks/news.css);
 /* PAGER */
-@import url(/css/blocks/pager.css);
+@import url(./blocks/pager.css);
 /* ABOUT */
-@import url(/css/blocks/about.css);
+@import url(./blocks/about.css);
 /* FOOTER */
-@import url(/css/blocks/footer.css);
+@import url(./blocks/footer.css);
 /* SOCIALS */
-@import url(/css/blocks/social.css);
+@import url(./blocks/social.css);
 
 
 /* WELCOME PAGE */
-@import url(/css/blocks/welcome.css);
+@import url(./blocks/welcome.css);
 
 /* SERVICES */
-@import url(/css/blocks/headline.css);
-@import url(/css/blocks/breadcrumbs.css);
+@import url(./blocks/headline.css);
+@import url(./blocks/breadcrumbs.css);
 
 /* PLACES */
-@import url(/css/blocks/places.css);
+@import url(./blocks/places.css);
 
 /* PARTNERS */
-@import url(/css/blocks/partners.css);
+@import url(./blocks/partners.css);
 
 /* REVIEWS */
-@import url(/css/blocks/reviews.css);
-@import url(/css/blocks/tag.css);
+@import url(./blocks/reviews.css);
+@import url(./blocks/tag.css);
 
 /* SEP */
-@import url(/css/blocks/separator.css);
+@import url(./blocks/separator.css);
 
 /* FORM */
-@import url(/css/blocks/form.css);
+@import url(./blocks/form.css);
