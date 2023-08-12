@@ -6,7 +6,7 @@
 }
 
 .tours__title::after {
-  content: url(/img/index/title_flame.png);
+  content: url(../../img/index/title_flame.png);
   vertical-align: middle;
 }
 

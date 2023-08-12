@@ -39,7 +39,7 @@
 }
 
 .review__username::after {
-  content: url(/img/reviews/vk-blue.png);
+  content: url(../../img/reviews/vk-blue.png);
   margin-left: 5px;
 }
 

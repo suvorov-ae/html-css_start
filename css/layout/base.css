@@ -21,8 +21,8 @@ body {
 }
 
 .wrapper--bg--dark{
-  background: url(/img/index/bg_1.png) center top no-repeat,
-  url(/img/index/bg_2.png) right bottom 110px no-repeat;
+  background: url(../../img/index/bg_1.png) center top no-repeat,
+  url(../../img/index/bg_2.png) right bottom 110px no-repeat;
   background-color: #001821;
   color: #fff;
 }

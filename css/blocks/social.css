@@ -11,7 +11,7 @@
   border-radius: 50%;
   width: 36px;
   height: 36px;
-  background-image: url(/img/social/css_sprites.png);
+  background-image: url(../../img/social/css_sprites.png);
 }
 
 .social__link--tg {

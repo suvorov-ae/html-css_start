@@ -1,5 +1,5 @@
 .welcome {
-  background: url(/img/welcome/bg.png) center center no-repeat;
+  background: url(../../img/welcome/bg.png) center center no-repeat;
   color: #FFF;
   display: flex;
   flex-direction: column;
